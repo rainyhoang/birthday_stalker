@@ -1,4 +1,5 @@
 body{
+
     background-image: url("../images/birthday-background.jpg");
 	background-image: url(../images/happybday.jpg);
 	background-repeat: no-repeat;
@@ -29,6 +30,67 @@ body{
 	border-style: solid;
 }
 
+
+    background-color: #6FD0D9;
+    background-image: url(../images/happybday.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-height: 100%;*/
+}
+
+h1{
+  color: black;
+}
+
+h2{
+  color: black;
+}
+
+#border{
+  border-left: 1px solid white;
+}
+
+ul.nav.navbar{
+  position: absolute;
+   /*top: 50px;*/
+   right: 15%;
+   margin: 0px;
+   top: 0px;
+   height: 100%;
+}
+}
+
+#bdayCal{
+  /*border: 1px solid black;*/
+  color: black;
+}
+
+.fc-unthemed td{
+  border-color: black;
+}
+
+a{
+  color: black;
+}
+
+.header{
+    font-size: 70px;
+    color: #404040;
+    padding-top: 50px;
+}
+.maincontent{
+    color: #404040;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#form{
+    /*background-color: white;*/
+    width: 100%;
+    height: 100%;
+}
+
 /*homepage form*/
 input[type=text], select {
     width: 350px;
@@ -38,7 +100,6 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 input[type=submit] {
     width: 350px;
     background-color: #F16745;
@@ -48,6 +109,7 @@ input[type=submit] {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 
 /*navbar*/
 .navbar-brand{
@@ -80,10 +142,49 @@ input[type=submit] {
 	color: #ffffff;
 }
 
+
+/*navbar*/
+.navbar-brand{
+    font-family: "Times New Roman", Times, serif;
+    background-color: #F16745;
+    float: left;
+    position: absolute;
+     /*top: 50px;*/
+     left: 10%;
+     margin: 0px;
+     top: 0px;
+     height: 100%;
+}
+.navbar{
+  background-color: #F16745;
+  height: 60px;
+}
+/*website name*/
+#brand {
+    height: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 10px;
+}
+/*links to the other pages*/
+
+
+#navbarSupportedContent{
+    height: 5px;
+    padding-top: 25px;
+    /*position: relative;*/
+    left: 120%;
+    font-size: 20px;
+    color: #ffffff;
+}
+
 /*the logo*/
 .img{
    height: 35px;
    width: 35px;
+
    float: left;
    margin:10px 1px 60px 20px;
 }
@@ -92,3 +193,16 @@ input[type=submit] {
 	color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
+   /*float: ;*/
+   margin:0;
+   bottom: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   /*left: 15%;*/
+}
+.nav-link{
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+

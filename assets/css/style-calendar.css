@@ -1,0 +1,20 @@
+#calendar
+{
+	background-color: silver;
+}
+
+.fc-day-header
+{
+	background-color: moccasin;
+	color: black;
+}
+
+.fc-day-number
+{
+	color: brown;
+}
+
+.fc-day
+{
+	background-color: aliceblue;
+}

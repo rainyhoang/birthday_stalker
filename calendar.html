@@ -9,14 +9,39 @@
   <script src='./assets/calendar/lib/moment.min.js'></script>
   <script src='./assets/calendar/fullcalendar.js'></script>
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap_calendar.min.css">
+		
+	
+<!--	linke to CSS-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style-calendar.css">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 <body>
-
-  <h1>Birthday Stalker Calendar!</h1>
-
-
+	 
+<!--
+<nav class="navbar navbar-expand-md navbar-light">
+		<div class="header">
+			<img src="assets/images/logo.png" alt="logo" class="img">
+		    <span class="navbar-brand mb-0 h1" id="brand">Birthday Stalker</span>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="nav navbar">
+		        <li class="nav-item">
+		        <a class="nav-link" href="index.html">Home</a>
+		        </li>
+		        <br>
+				<li class="nav-item">
+				<a class="nav-link" href="calendar.html">Calendar</a>
+				</li>
+		    </ul>
+			</div>
+		</div>
+	</nav>
+-->
+	
+	
   <div id="calendar"></div>
+		
 
 	<!-- firebase -->
 	<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
@@ -38,13 +63,13 @@
   <script>
 
     $('#calendar').fullCalendar({
+		
       // dayClick: function() {
       //     alert('a day has been clicked!');
       // }
   });
 
   </script>
-
 
 
 
